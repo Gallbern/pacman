@@ -1,0 +1,93 @@
+/* Tamaño del escenario*/
+
+
+.grid {
+    width: 1120px;
+    height: 1120px;
+    border: solid black;
+    display: flex;
+    /* No hacer hasta haber demostrado la disposición de los .grid div*/
+    flex-wrap: wrap;
+    /* No hacer hasta haber demostrado la disposición de los .grid div*/
+}
+
+/* Tamaño de cada elemento del escenario  20 * 28 = 560  */
+.grid div {
+    width: 40px;
+    height: 40px;
+    background-color: #303030;
+    /* border: solid red;
+    box-sizing: border-box;*/
+}
+
+/* Color de los elementos del escenario */
+
+/*color de los puntos*/
+.pac-dot {
+    /*  background-color: green; */
+    /* border: 5px solid white;
+    box-sizing: border-box;*/
+    content: url(img/rose_petal.png);
+
+}
+
+/*color de las paredes */
+.wall {
+    /* background-color: blue; */
+    content: url(img/wall.png);
+}
+
+.wall2 {
+    /* background-color: blue; */
+    content: url(img/wall2.png);
+}
+
+.wall3 {
+    /* background-color: blue; */
+    content: url(img/wall3.png);
+}
+
+
+
+/*color de las bolas de poder*/
+.power-pellet {
+    /* background-color: green;
+    border-radius: 10px; */
+    content: url(img/rose.png);
+}
+
+/*color de los fantasmas*/
+.blinky {
+    /* background-color: red; */
+    content: url(img/drac4.png);
+}
+
+.inky {
+    /*  background-color: darkcyan; */
+    content: url(img/drac3.png);
+}
+
+.pinky {
+
+    /* background-color: pink; */
+    content: url(img/drac2.png);
+}
+
+.clyde {
+    /*background-color: orange */
+    content: url(img/drac1.png);
+}
+
+/*Cuando Pac-Man come una bola de poder los fantasmas pasarán a este color*/
+.scared-ghost {
+    /*  background-color: aquamarine;*/
+    content: url(img/scared.png);
+}
+
+/*Color y forma de pac-man*/
+.pac-man {
+    /*  background-color: rgb(235, 205, 8);
+    border-radius: 10px; */
+    content: url(img/knight.png);
+
+}
